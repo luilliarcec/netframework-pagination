@@ -1,4 +1,4 @@
-# Windows Forms Pagination
+# NET Framework Pagination
 
 [![latest version](https://img.shields.io/nuget/v/Luilliarcec.Pagination)](https://www.nuget.org/packages/Luilliarcec.Pagination) 
 [![downloads](https://img.shields.io/nuget/dt/Luilliarcec.Pagination)](https://www.nuget.org/packages/Luilliarcec.Pagination)
