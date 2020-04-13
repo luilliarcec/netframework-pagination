@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Luilliarcec.Pagination.Contracts;
+using Luilliarcec.Pagination.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -45,7 +47,7 @@ namespace Luilliarcec.Pagination
                     data = Current(queryable, limit, ref current_page, last_page);
                     break;
                 default:
-                    throw new Exception($"Invalid argument exception, expected between, [next, previous, last, first or current], received {action}");
+                    throw new PaginationException($"Invalid argument exception, expected between, [next, previous, last, first or current], received {action}");
             }
 
             return new Dictionary<string, object>()
