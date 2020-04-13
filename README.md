@@ -1,6 +1,7 @@
 # NET Framework Pagination
 
-[![latest version](https://img.shields.io/nuget/v/Luilliarcec.Pagination)](https://www.nuget.org/packages/Luilliarcec.Pagination) 
+[![latest version](https://img.shields.io/nuget/v/Luilliarcec.Pagination)](https://www.nuget.org/packages/Luilliarcec.Pagination)
+![Azure DevOps tests](https://img.shields.io/azure-devops/tests/luilliarcec/netframework-pagination/4)
 [![downloads](https://img.shields.io/nuget/dt/Luilliarcec.Pagination)](https://www.nuget.org/packages/Luilliarcec.Pagination)
 
 Allows paging of data from an IOrderedQueryable object.
@@ -18,7 +19,7 @@ dotnet add package Luilliarcec.Pagination
 Whether you use `Code First` or if you use `Database First`, implement the `Interface` exposed in the Package as `IPaginable` in your Models or Entities.
 
 ```csharp
-using Luilliarcec.Pagination;
+using Luilliarcec.Pagination.Contracts;
 // ...
 
 namespace Entities.Models
@@ -80,7 +81,7 @@ This function will return a `dictionary of <string, object>`, in which we will f
 In your view you can manage yourself in the following way.:
 
 ```csharp
-using Luilliarcec.Pagination;
+using Luilliarcec.Pagination.Contracts;
 // ...
 
 namespace Views.Users
