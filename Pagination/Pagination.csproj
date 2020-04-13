@@ -41,7 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPaginable.cs" />
+    <Compile Include="Exceptions\PaginationException.cs" />
+    <Compile Include="Contracts\IPaginable.cs" />
     <Compile Include="Pagination.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
