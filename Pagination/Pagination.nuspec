@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/luilliarcec/netframework-pagination</projectUrl>
-    <repository type="git" url="https://github.com/luilliarcec/netframework-pagination.git" branch="master" commit="910d0882db66aef3761a7ff1cc658d7d181fde63" />
+    <repository type="git" url="https://github.com/luilliarcec/netframework-pagination.git" branch="master" commit="275e20400fd517695442e79f91e0e665dda1933f" />
     <description>$description$</description>
     <releaseNotes>Pagination data.</releaseNotes>
     <copyright>Copyright 2020</copyright>
