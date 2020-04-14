@@ -3,6 +3,7 @@
 [![latest version](https://img.shields.io/nuget/v/Luilliarcec.Pagination)](https://www.nuget.org/packages/Luilliarcec.Pagination)
 ![Azure DevOps tests](https://img.shields.io/azure-devops/tests/luilliarcec/netframework-pagination/4)
 [![downloads](https://img.shields.io/nuget/dt/Luilliarcec.Pagination)](https://www.nuget.org/packages/Luilliarcec.Pagination)
+[![GitHub license](https://img.shields.io/github/license/luilliarcec/netframework-pagination)](https://github.com/luilliarcec/netframework-pagination/blob/master/LICENSE.md)
 
 Allows paging of data from an IOrderedQueryable object.
 
